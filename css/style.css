@@ -1,0 +1,196 @@
+body {
+
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+* {
+    margin: 0;
+    height: 100%;
+    padding: 0 auto;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    padding: 4em 0;
+    background: #fdfcf8;
+    position: relative;
+}
+
+.heading {
+    width: 100%;
+    height: auto;
+}
+
+.heading h2 {
+    font-family: sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #3f3f3f;
+}
+
+.heading p {
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 48px auto 0;
+    color: #ff5953;
+}
+
+.border {
+    background: #3f3f3f;
+    width: 25%;
+    margin: auto;
+    height: 1.5px;
+    position: relative;
+}
+
+.border2 {
+    background: #3f3f3f;
+    width: 100%;
+    margin: 10px auto;
+    height: 1px;
+    position: relative;
+}
+
+.partOne {
+    height: auto;
+    margin-top: 2em;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #737373;
+}
+
+.tittle {
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: bold;
+
+}
+
+.connection {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.row {
+    height: auto;
+    width: 100%;
+    margin: 0 auto
+}
+
+.type {
+    height: 80px;
+    font-size: 20px;
+
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    /* Safari, Chrome, and Opera */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+}
+
+.item a {
+    height: 80px;
+    position: relative;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    /* Safari, Chrome, and Opera */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.item a > div:last-child:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bgimg {
+    width: 100%;
+
+    overflow: hidden;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+
+    /* Safari, Chrome, and Opera */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}
+
+.bgimg img {
+    -webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+    filter: blur(2px);
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-clip: content-box;
+    position: absolute;
+    left: 0;
+    float: left;
+}
+
+.content h3 {
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #f1f1f1;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.content h5:nth-child(2) {
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #54ff94;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.content h5:nth-child(3) {
+    height: auto;
+    margin-top: 8px;
+    color: #ff5953;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.other {
+    width: 100%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-clip: content-box;
+    position: absolute;
+    left: 0;
+    float: left;
+}
+
+.other h3 {
+    height: auto;
+    color: #ff7800;
+    margin-top: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
