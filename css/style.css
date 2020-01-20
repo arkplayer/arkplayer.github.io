@@ -54,7 +54,11 @@ body {
     height: 1px;
     position: relative;
 }
-
+.separate{
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+}
 .partOne {
     height: auto;
     margin-top: 2em;
