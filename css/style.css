@@ -31,14 +31,20 @@ body {
     color: #3f3f3f;
 }
 
-.heading p {
+.heading p:nth-child(2){
     font-family: sans-serif;
     text-align: center;
     letter-spacing: 3px;
     margin: 48px auto 0;
     color: #ff5953;
 }
+.heading p:nth-child(3){
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
 
+    color: #ff5953;
+}
 .border {
     background: #3f3f3f;
     width: 25%;
